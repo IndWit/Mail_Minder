@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #f5ecd4;
+    --secondary-color: #ac866b;
+    --font-color: #000000;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-image: url(img/bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-1 {
+    font-family: "Inter", sans-serif;
+    background-image: url(img/backimg.png);
+}
+
+.div-2 {
+    background-color: var(--primary-color);
+}
+
+.div-2 a {
+    color: var(--font-color);
+}
+
+.nav-pills li a:hover {
+    background-color: var(--secondary-color);
+}
+
+.nav-pills li a{
+    color: var(--font-color) !important;
+}
+
+.nav-pills li a:active {
+    color: var(--secondary-color)!important;
+}
+
+.userprof {
+    background-color: var(--primary-color);
+}
+
+.navbar-bg {
+    background-color: var(--primary-color);
+}
+
+.nav-menu li a {
+    color: var(--font-color);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-image: url(img/bgimg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    backdrop-filter:  brightness(50%);
+    height: 100vh;
+}
+
+
+.btn {
+    border-color: var(--secondary-color);
+}
+
+
+.div button{
+    flex-basis: 48%;
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+}
+
+.box {
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.box i{
+    color: var(--font-color);
+}
+
+
